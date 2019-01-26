@@ -60,6 +60,7 @@
 					<imageName>${docker.image.prefix}/${docker.image.name}</imageName>
 					<dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
 					<forceTags>true</forceTags>
+					<serverId>docker.io</serverId>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
